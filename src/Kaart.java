@@ -13,8 +13,8 @@ public class Kaart extends SpelBord {
         return value;
     }
 
-    public boolean isOmdraaien() {
-        return omdraaien;
+    public Kaart isOmdraaien() {
+        return new Kaart(true, value);
     }
 
     public boolean isShow() {
